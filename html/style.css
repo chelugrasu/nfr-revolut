@@ -1,0 +1,1714 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-user-drag: none;
+  user-drag: none;
+  -webkit-touch-callout: none;
+}
+
+  .container{
+   display: none;
+    position: absolute;
+    width: 50vw;
+    height: 35vw;
+    background-color: rgb(255,255,255);
+    left: 25vw;
+    top: 5vw;
+    border-radius: 0.40vw;
+    filter: drop-shadow(-0.25vw 0.5vw 0.5vw black);
+  }
+.mainUI{
+    display: none;
+}
+  .profil{
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    display: flex;
+    width: 10vw;
+    height: 3vw;
+    position: relative;
+    text-transform: uppercase;
+    position: relative;
+    top: 1.5vw;
+    left: 1.5vw;
+    font-size: 0.8vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .profil:hover{
+    background: rgba(135, 135, 135, 0.3);
+  }
+  .textprofil{
+    position: absolute;
+    left: 3vw;
+    top: 1vw;
+  }
+  .iconprofil{
+  position: absolute;
+  width: 6vw;
+  height: 2vw;
+  top: 0.5vw;
+  left: 0.5vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+
+  .home{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 6vw;
+    left: 1.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .home:hover{
+    background: rgba(135, 135, 135, 0.3);
+  }
+  .texthome{
+    position: absolute;
+    left: 3.5vw;
+    top: 1vw;
+  }
+  .iconhome{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 1vw;
+  left: 1.75vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://i.pinimg.com/originals/c1/d4/23/c1d42315529de62ba4bd4a95d867666d.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .hub{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 6.1vw;
+    left: 1.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .hub:hover{
+    background: rgba(135, 135, 135, 0.3);
+  }
+  .texthub{
+    position: absolute;
+    left: 3.5vw;
+    top: 1vw;
+  }
+  .iconhub{
+  position: absolute;
+  width: 3vw;
+  height: 2vw;
+  top: 0.45vw;
+  left: 1vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025508411481268234/output-onlinepngtools13.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .home-header{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    position: absolute;
+    font-size: 1.75vw;
+    left: 15vw;
+    top: 2vw;
+  }
+  .balance{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 1.75vw;
+    left: 16vw;
+    top: 7vw;
+  }
+  .flag{
+    position: absolute;
+    width: 4vw;
+    height: 4vw;
+    top: 6.5vw;
+    left: 40vw;
+    align-items: center;
+    align-content: center;
+    background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025517962238636082/output-onlinepngtools14.png?");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+  }
+  .text1{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 0.75vw;
+    left: 16.1vw;
+    top: 9.2vw;
+  }
+  .deposit{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    display: flex;
+    width: 6vw;
+    height: 2vw;
+    position: relative;
+    top: 4.5vw;
+    left: 16vw;
+    font-size: 0.8vw;
+    background: rgb(133, 196, 255,0.5);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+    color: rgb(117, 128, 138);
+  }
+  
+  .deposit:hover{
+    background: rgb(133, 196, 255,0.65);
+  }
+  .textdeposit{
+    position: absolute;
+    left: 2.25vw;
+    top: 0.5vw;
+  }
+  .icondeposit{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 0.5vw;
+  left: 0.5vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025522294346498128/icons8-plus-961.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .withdraw{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    display: flex;
+    width: 6vw;
+    height: 2vw;
+    position: relative;
+    top: 2.5vw;
+    left: 22.5vw;
+    font-size: 0.8vw;
+    background: rgb(133, 196, 255,0.5);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+    color: rgb(117, 128, 138);
+  }
+  
+  .withdraw:hover{
+    background: rgb(133, 196, 255,0.65);
+  }
+  .textwithdraw{
+    position: absolute;
+    left: 2.25vw;
+    top: 0.5vw;
+  }
+  .iconwithdraw{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 0.6vw;
+  left: 0.5vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025524933268348968/icons8-withdraw-96.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .transfer{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    display: flex;
+    width: 6vw;
+    height: 2vw;
+    position: relative;
+    top: 0.5vw;
+    left: 29vw;
+    font-size: 0.8vw;
+    background: rgb(133, 196, 255,0.5);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+    color: rgb(117, 128, 138);
+  }
+  
+  .transfer:hover{
+    background: rgb(133, 196, 255,0.65);
+  }
+  .texttransfer{
+    position: absolute;
+    left: 2vw;
+    top: 0.5vw;
+  }
+  .icontransfer{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 0.45vw;
+  left: 0.5vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025525976916050010/icons8-initiate-money-transfer-96.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  
+  .texttransactions{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    font-size: 0.75vw;
+    left: 16.1vw;
+    top: 20vw;
+  }
+
+  .iconrecieved{
+  position: absolute;
+  width: 6vw;
+  height: 2.5vw;
+  top: 23vw;
+  left: 16vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+  .textfrom{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.75vw;
+    left: 20vw;
+    top: 23.25vw;
+  }
+  .numefrom{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase,;
+    text-decoration: underline  rgb(133, 196, 255,1) 0.08vw;
+    font-weight: 500;
+    font-size: 0.75vw;
+    width: 7vw;
+    left: 2.5vw;
+    top: 0vw;
+  }
+  .textid{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.75vw;
+    left: 20vw;
+    top: 24.5vw;
+  }
+  .idfrom{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase,;
+    font-weight: 500;
+    font-size: 0.75vw;
+    width: 7vw;
+    left: 1vw;
+    top: 0vw;
+  }
+  .amountrecieved{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase,;
+    font-weight: 500;
+    font-size: 0.75vw;
+    width: 7vw;
+    left: 22vw;
+    top: 1vw;
+    transition: 1s;
+  }
+  .amountrecieved:hover{
+    text-decoration: underline  rgb(133, 196, 255,1) 0.08vw;
+  }
+  .senttransactions{
+    position: absolute;
+    top: 6vw;
+  }
+  .iconsent{
+  position: absolute;
+  width: 6vw;
+  height: 2.5vw;
+  top: 23vw;
+  left: 16vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+  .textto{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.75vw;
+    left: 20vw;
+    top: 23.25vw;
+  }
+  .numeto{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase,;
+    text-decoration: underline  rgb(133, 196, 255,1) 0.08vw;
+    font-weight: 500;
+    font-size: 0.75vw;
+    width: 7vw;
+    left: 1.5vw;
+    top: 0vw;
+  }
+  .textid2{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 500;
+    font-size: 0.75vw;
+    left: 20vw;
+    top: 24.5vw;
+  }
+  .idto{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase,;
+    font-weight: 500;
+    font-size: 0.75vw;
+    width: 7vw;
+    left: 1vw;
+    top: 0vw;
+  }
+  .amountsent{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    text-transform: uppercase,;
+    font-weight: 500;
+    font-size: 0.75vw;
+    width: 7vw;
+    left: 22vw;
+    top: 1vw;
+    transition: 1s;
+  }
+  .amountsent:hover{
+    text-decoration: underline  rgb(133, 196, 255,1) 0.08vw;
+  }
+  .depositMenu{
+    display: none;
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    left: 16.5vw;
+    border-radius: 0.40vw;
+    top: 8vw;
+    background-color: rgb(235, 235, 235);
+    border: 0.1vw solid rgb(130, 178, 245);
+    filter: drop-shadow(-0.25vw 0.5vw 0.4vw rgb(28, 76, 143));
+  }
+  .textdeposit2{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    color: rgb(28, 76, 143);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.75vw;
+    left: 5.75vw;
+    top: 2vw;
+  }
+  .input1{
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: black;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 0.2vw;
+    border: none;
+    text-align: center;
+    width: 10vw;
+    height: 3vw;
+    left: 3.8vw;
+    top: 10vw;
+  }
+  .input1:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .input1:focus{
+    outline: none;
+  }
+  ::placeholder { 
+    color: rgb(109, 109, 109);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+  }
+  .textinput{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    font-size: 1vw;
+    left: 6.75vw;
+    top: 8vw;
+  }
+
+  .button-deposit{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 14vw;
+    left: 4.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .button-deposit:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .textbuttondeposit{
+    position: absolute;
+    left: 3.5vw;
+    top: 1vw;
+  }
+  .icondeposit2{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 0.9vw;
+  left: 1.75vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025522294346498128/icons8-plus-961.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .closebutton1{
+    position: absolute;
+    width: 2vw;
+    height: 1.1vw;
+    top: 1vw;
+    right: 0vw;
+    align-items: center;
+    align-content: center;
+    background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025823201382641725/icons8-x-100.png?width=80&height=80");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+  }
+  .closebutton1:hover{
+    transform: scale(1.4);
+  }
+
+  .withdrawMenu{
+    display: none;
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    left: 16.5vw;
+    border-radius: 0.40vw;
+    top: 8vw;
+    background-color: rgb(235, 235, 235);
+    border: 0.1vw solid rgb(130, 178, 245);
+    filter: drop-shadow(-0.25vw 0.5vw 0.4vw rgb(28, 76, 143));
+  }
+  .textwithdraw2{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    color: rgb(28, 76, 143);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.75vw;
+    left: 4vw;
+    top: 2vw;
+  }
+
+  .input2{
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: black;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 0.2vw;
+    border: none;
+    text-align: center;
+    width: 10vw;
+    height: 3vw;
+    left: 3.8vw;
+    top: 10vw;
+  }
+  .input2:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .input2:focus{
+    outline: none;
+  }
+  ::placeholder { 
+    color: rgb(109, 109, 109);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+  }
+
+  .button-withdraw{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 14vw;
+    left: 4.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .button-withdraw:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .textbuttonwithdraw{
+    position: absolute;
+    left: 3.5vw;
+    top: 1vw;
+  }
+  .iconwithdraw2{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 1.05vw;
+  left: 1.75vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025524933268348968/icons8-withdraw-96.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+  .transferMenu{
+    display: none;
+    position: absolute;
+    width: 18vw;
+    height: 22vw;
+    left: 16.5vw;
+    border-radius: 0.40vw;
+    top: 8vw;
+    background-color: rgb(235, 235, 235);
+    border: 0.1vw solid rgb(130, 178, 245);
+    filter: drop-shadow(-0.25vw 0.5vw 0.4vw rgb(28, 76, 143));
+  }
+  .texttransfer2{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    color: rgb(28, 76, 143);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.75vw;
+    left: 4.5vw;
+    top: 2vw;
+  }
+
+  .textinput3{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    font-size: 1vw;
+    left: 6.75vw;
+    top: 11vw;
+  }
+  .input3{
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: black;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 0.2vw;
+    border: none;
+    text-align: center;
+    width: 10vw;
+    height: 3vw;
+    left: 3.8vw;
+    top: 13vw;
+  }
+  .input3:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .input3:focus{
+    outline: none;
+  }
+  ::placeholder { 
+    color: rgb(109, 109, 109);
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.2vw;
+    text-align: center;
+  }
+  .textinput4{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    font-size: 1vw;
+    left: 6.75vw;
+    top: 5.5vw;
+  }
+  .input4{
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: rgb(130, 178, 245);
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 0.2vw;
+    border: none;
+    text-align: center;
+    width: 10vw;
+    height: 3vw;
+    left: 3.8vw;
+    top: 7vw;
+  }
+  .input4:focus{
+    outline: none;
+  }
+
+  .button-transfer{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 17vw;
+    left: 4.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .button-transfer:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .textbuttontransfer{
+    position: absolute;
+    left: 3.5vw;
+    top: 1vw;
+  }
+  .icontransfer2{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 1.05vw;
+  left: 1.75vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025524933268348968/icons8-withdraw-96.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+  .homepage{
+    display: none;
+  }
+
+  .registerPage{
+    display: none;
+  }
+
+
+.textRegister{
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  display: flex;
+  width: 17vw;
+  height: 3vw;
+  position: relative;
+  top: 8vw;
+  left: 30vw;
+  font-size: 1.65vw;
+  color: black;
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+.phoneNumber{
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  display: flex;
+  width: 17vw;
+  height: 1vw;
+  position: relative;
+  top: 7.5vw;
+  left: 30vw;
+  font-size: 1.55vw;
+  color: black;
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+.checkPhone{
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  display: flex;
+  width: 28vw;
+  height: 1vw;
+  position: relative;
+  top: 9.5vw;
+  left: 30vw;
+  font-size: 0.85vw;
+  color: rgb(82, 92, 102);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+
+.input5{
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: black;
+  border-color: transparent;
+  background-color: #EDEEF0;
+  position: absolute;
+  border-radius: 0.2vw;
+  border: none;
+  text-align: center;
+  height: 2.5vw;
+  width: 6vw;
+  left: 30vw;
+  top: 16.5vw;
+  outline: none;
+}
+
+.input5:hover{
+  outline: none;
+  background: rgb(130, 178, 245, 0.4);
+}
+
+
+.button-register{
+  font-family: 'Exo', sans-serif;
+  font-weight: 550;
+  display: flex;
+  width: 7vw;
+  height: 3vw;
+  position: relative;
+  top: 25vw;
+  background-color: #EDEEF0;
+  left: 29vw;
+  font-size: 0.8vw;
+  color: rgb(117, 128, 138);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+
+.button-register:hover{
+  background: rgb(130, 178, 245, 0.4);
+}
+.textbuttonregister{
+  position: absolute;
+  left: 2.75vw;
+  top: 1vw;
+}
+.iconregister{
+position: absolute;
+width: 2vw;
+height: 1.1vw;
+top: 0.95vw;
+left: 1.2vw;
+align-items: center;
+align-content: center;
+background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026070082796912660/icons8-login-90.png?width=72&height=72");
+background-repeat: no-repeat;
+background-position: cover;
+background-size: contain;
+}
+.welcomePage{
+  display: none;
+}
+
+.textWelcome{
+  font-family: 'Exo', sans-serif;
+  font-weight: 700;
+  display: flex;
+  width: 17vw;
+  height: 3vw;
+  position: relative;
+  top: 8vw;
+  left: 46vw;
+  font-size: 1.65vw;
+  color: black;
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+.undertextWelcome{
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  display: flex;
+  width: 28vw;
+  height: 1vw;
+  position: relative;
+  top: 7.5vw;
+  left: 41.5vw;
+  font-size: 1vw;
+  color: rgb(82, 92, 102);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+
+.button-continue{
+  display: none;
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+  display: flex;
+  width: 7.2vw;
+  height: 3vw;
+  position: relative;
+  background-color: #EDEEF0;
+  top: 25vw;
+  left: 46vw;
+  font-size: 0.8vw;
+  color: rgb(117, 128, 138);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+
+.button-continue:hover{
+  background: rgb(130, 178, 245, 0.4);
+}
+.textbuttoncontinue{
+  position: absolute;
+  left: 2.75vw;
+  top: 1vw;
+}
+.iconcontinue{
+position: absolute;
+width: 2vw;
+height: 1.1vw;
+top: 0.95vw;
+left: 1.2vw;
+align-items: center;
+align-content: center;
+background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026070082796912660/icons8-login-90.png?width=72&height=72");
+background-repeat: no-repeat;
+background-position: cover;
+background-size: contain;
+}
+
+#continue{
+  display: none;
+}
+#continue2{
+  display: none;
+}
+
+
+.button-continue2{
+  font-family: 'Exo', sans-serif;
+  font-weight: 400;
+  display: flex;
+  width: 7.2vw;
+  height: 3vw;
+  position: relative;
+  background-color: #EDEEF0;
+  top: 25vw;
+  left: 46vw;
+  font-size: 0.8vw;
+  color: rgb(117, 128, 138);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+
+.button-continue2:hover{
+  background: rgb(130, 178, 245, 0.4);
+}
+.textbuttoncontinue2{
+  position: absolute;
+  left: 2.75vw;
+  top: 1vw;
+}
+.iconcontinue2{
+position: absolute;
+width: 2vw;
+height: 1.1vw;
+top: 0.95vw;
+left: 1.2vw;
+align-items: center;
+align-content: center;
+background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026070082796912660/icons8-login-90.png?width=72&height=72");
+background-repeat: no-repeat;
+background-position: cover;
+background-size: contain;
+}
+
+.pinPage{
+  display: none;
+}
+
+.textPin{
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  display: flex;
+  width: 28vw;
+  height: 1vw;
+  position: relative;
+  top: 16vw;
+  left: 30vw;
+  font-size: 0.85vw;
+  color: rgb(82, 92, 102);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+.input6{
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: black;
+  border-color: transparent;
+  background-color: #EDEEF0;
+  position: absolute;
+  border-radius: 0.2vw;
+  border: none;
+  text-align: center;
+  height: 2.5vw;
+  width: 6vw;
+  left: 30vw;
+  top: 23vw;
+  outline: none;
+}
+.input6:hover{
+  outline: none;
+  background: rgb(130, 178, 245, 0.4);
+}
+@keyframes shake {
+  0% {
+    transform: translate(0);
+  }
+  20% {
+    transform: translate(3em);
+  }
+  40% {
+    transform: translate(-3em);
+  }
+  60% {
+    transform: translate(3em);
+  }
+  80% {
+    transform: translate(-3em);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
+
+
+.textPin2{
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  display: flex;
+  width: 28vw;
+  height: 1vw;
+  position: relative;
+  top: 12vw;
+  left: 42.5vw;
+  font-size: 0.85vw;
+  color: rgb(82, 92, 102);
+  transition: 0.125s;
+  border-radius: 0.6vw;
+}
+
+.input7{
+  z-index: 1;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: black;
+  border-color: transparent;
+  background-color: #EDEEF0;
+  position: absolute;
+  border-radius: 0.2vw;
+  border: none;
+  text-align: center;
+  height: 2.5vw;
+  width: 6vw;
+  left: 47vw;
+  top: 21.5vw;
+  outline: none;
+}
+.input7:hover{
+  outline: none;
+  background: rgb(130, 178, 245, 0.4);
+}
+
+.showPin{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 25vw;
+  left: 49.5vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026172999973490788/icons8-lock-90.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  transition: 0.5s;
+}
+.showPin:hover{
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026173443693105252/icons8-padlock-90.png?width=72&height=72");
+}
+
+.hubPage{
+    display: none;
+}
+
+.rewards{
+    position: absolute;
+    top: 9vw;
+    left: 40vw;
+}
+.rewardsPage{
+    display: none;
+    position: absolute;
+    top: 12vw;
+    left: 40vw;
+}
+.borderRewards{
+    position: inherit;
+    width: 3.5vw;
+    height: 3.5vw;
+    border-radius: 0.6vw;
+    filter: drop-shadow(0vw 0vw 0.1vw black);
+    outline: none;
+    background-image: linear-gradient(to bottom, rgb(130, 178, 245, 0.7) , rgb(0, 183, 255) 99%);
+    transition: 0.1s;
+}
+.borderRewards:hover{
+    background-color: rgb(130, 178, 245, 0.9);
+    filter: drop-shadow(0vw 0vw 0.2vw rgb(130, 178, 245, 0.9));
+}
+
+
+  .iconRewards{
+  position: absolute;
+  width: 6vw;
+  height: 2.25vw;
+  top: 0.5vw;
+  left: 0.6vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1027654066857312256/icons8-treasure-chest-100.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+.textRewards{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 3.75vw;
+    left: 0.5vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+.reward1{
+    position: absolute;
+    left: -4vw;
+}
+.reward2{
+    position: absolute;
+    left: 9vw;
+}
+.reward3{
+    position: absolute;
+    left: 22vw;
+}
+.rewardBorder{
+    position: absolute;
+    width: 12vw;
+    height: 20vw;
+    background-color:white;
+    border-radius: 0.4vw;
+    filter: drop-shadow(0vw 0vw 0.4vw black);
+}
+.rewardIcon1{
+position: absolute;
+  width: 6vw;
+  height: 6vw;
+  top: 0.5vw;
+  left: 3vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1027658760870694932/icons8-cash-100.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+ filter: drop-shadow(0vw 0vw 0.2vw black);
+}
+.rewardIcon2{
+position: absolute;
+  width: 6vw;
+  height: 5vw;
+  top: 1vw;
+  left: 3.5vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1027673544005517462/icons8-wealth-64.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+ filter: drop-shadow(0vw 0vw 0.2vw black);
+}
+.rewardIcon3{
+position: absolute;
+  width: 6vw;
+  height: 5.5vw;
+  top: 1vw;
+  left: 3.25vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1027673919840329820/icons8-car-96.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+ filter: drop-shadow(0vw 0vw 0.2vw black);
+}
+
+.rewardText1{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 5vw;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 7vw;
+    left: 3.5vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+.rewardPrice1{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 5vw;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 8vw;
+    left: 3.5vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+
+.rewardText2{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 5vw;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 7vw;
+    left: 3.5vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+.rewardPrice2{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 6vw;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 8vw;
+    left: 3.5vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+.rewardText3{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 5vw;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 7vw;
+    left: 4.75vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+.rewardPrice3{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 6vw;
+    color: rgb(25, 28, 31);
+    font-size: 0.6vw;
+    top: 8vw;
+    left: 3.5vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+
+.rewardButton{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 15vw;
+    left: 1.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .rewardButton:hover{
+    background: rgb(130, 178, 245, 0.3);
+  }
+  .textRewardButton{
+    position: absolute;
+    left: 3vw;
+    top: 1vw;
+  }
+
+.rewardCoins{
+    position: absolute;
+    display: flex;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    width: 12vw;
+    color: rgb(25, 28, 31);
+    font-size: 1.25vw;
+    top: -5vw;
+    left: 10vw;
+     filter: drop-shadow(0vw 0vw 0.05vw white);
+}
+
+.rewardBackButton{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 6.8vw;
+    height: 3vw;
+    position: relative;
+    top: 24vw;
+    left: 25vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .rewardBackButton:hover{
+    background: rgba(135, 135, 135, 0.3);
+  }
+  .textrewardBack{
+    position: absolute;
+    left: 3vw;
+    top: 1vw;
+  }
+  .iconrewardBack{
+  position: absolute;
+  width: 2vw;
+  height: 1vw;
+  top: 1vw;
+  left: 1.4vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1027681647144996944/icons8-return-100.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+.profilePage{
+  display: none;
+}
+
+.profilePageBack{
+  position: absolute;
+  width: 2vw;
+  height: 1vw;
+  top: 7vw;
+  left: 42vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1028412378464931840/icons8-left-arrow-1001.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+}
+
+.profilePageBack:hover{
+  filter: drop-shadow(-0vw 0vw 0.1vw rgb(28, 76, 143));
+}
+
+.personName{
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  position: absolute;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  top: 8vw;
+  left: 42.5vw;
+}
+.personTag{
+  font-family: 'Exo', sans-serif;
+  font-weight: 500;
+  position: absolute;
+  font-size: 0.75vw;
+  text-transform: lowercase;
+  top: 10.5vw;
+  left: 42.5vw;
+}
+
+.personIcon{
+  position: absolute;
+  width: 6vw;
+  height: 3vw;
+  top: 8.5vw;
+  right: 28vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://assets.stickpng.com/images/585e4bf3cb11b227491c339a.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+
+  .settingsText{
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: rgb(117, 128, 138);
+    position: absolute;
+    font-size: 0.65vw;
+    top: 15vw;
+    left: 42.5vw;
+  }
+  
+  .pinChange{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 17vw;
+    left: 42vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .pinChange:hover{
+    background: rgb(130, 178, 245, 0.6);
+  }
+  .textpinChange{
+    position: absolute;
+    left: 2.75vw;
+    top: 1vw;
+  }
+  .iconpinChange{
+  position: absolute;
+  width: 2vw;
+  height: 2.25vw;
+  top: 0.2vw;
+  left: 0.75vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1028401011116744704/output-onlinepngtools1.png?");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .themeChange{
+    font-family: 'Exo', sans-serif;
+    font-weight: 550;
+    display: flex;
+    width: 8.8vw;
+    height: 3vw;
+    position: relative;
+    top: 17vw;
+    left: 42vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .themeChange:hover{
+    background: rgb(130, 178, 245, 0.6);
+  }
+  .textthemeChange{
+    position: absolute;
+    left: 2.75vw;
+    top: 1vw;
+  }
+  .iconthemeChange{
+  position: absolute;
+  width: 2vw;
+  height: 1.1vw;
+  top: 0.9vw;
+  left: 1vw;
+  align-items: center;
+  align-content: center;
+  background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1028402919734775858/icons8-color-swatch-80.png");
+  background-repeat: no-repeat;
+  background-position: cover;
+  background-size: contain;
+  }
+  .pinChangeTab{
+    display: none;
+    z-index: 1;
+    position: absolute;
+    width: 18vw;
+    height: 18vw;
+    left: 43vw;
+    border-radius: 0.40vw;
+    top: 12vw;
+    background-color: rgb(235, 235, 235);
+    border: 0.1vw solid rgb(130, 178, 245);
+    filter: drop-shadow(-0.25vw 0.5vw 0.4vw rgb(28, 76, 143));
+  }
+  .textpinChangeTab{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    color: rgb(28, 76, 143);
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 1.75vw;
+    left: 4vw;
+    top: 1.5vw;
+  }
+  .textinputChange{
+    position: absolute;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    color: rgb(109, 109, 109);
+    font-size: 1vw;
+    left: 7vw;
+    top: 6vw;
+  }
+  
+  .button-change{
+    display: none;
+    font-family: 'Exo', sans-serif;
+    font-weight: 400;
+    display: flex;
+    width: 7.2vw;
+    height: 3vw;
+    position: relative;
+    background-color: #EDEEF0;
+    top: 14vw;
+    left: 5.5vw;
+    font-size: 0.8vw;
+    color: rgb(117, 128, 138);
+    transition: 0.125s;
+    border-radius: 0.6vw;
+  }
+  
+  .button-change:hover{
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .textbuttonchange{
+    position: absolute;
+    left: 2.25vw;
+    top: 1vw;
+  }
+
+  .showPin2{
+    position: absolute;
+    width: 2vw;
+    height: 1.1vw;
+    top: 11vw;
+    left: 8.5vw;
+    align-items: center;
+    align-content: center;
+    background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026172999973490788/icons8-lock-90.png?");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+    transition: 0.5s;
+  }
+  #pinCode2:hover{
+    background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1026173443693105252/icons8-padlock-90.png?width=72&height=72");
+  }
+
+  .inputpinChange{
+    z-index: 1;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2vw;
+    color: black;
+    border-color: transparent;
+    background-color: #EDEEF0;
+    position: absolute;
+    border-radius: 0.2vw;
+    border: none;
+    text-align: center;
+    height: 2.5vw;
+    width: 6vw;
+    left: 6vw;
+    top: 8vw;
+    outline: none;
+  }
+  .inputpinChange:hover{
+    outline: none;
+    background: rgb(130, 178, 245, 0.4);
+  }
+  .closebutton2{
+    position: absolute;
+    width: 2vw;
+    height: 1.1vw;
+    top: 1vw;
+    right: 0vw;
+    align-items: center;
+    align-content: center;
+    background-image: url("https://media.discordapp.net/attachments/1025387863099048007/1025823201382641725/icons8-x-100.png?width=80&height=80");
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: contain;
+  }
+  .closebutton2:hover{
+    transform: scale(1.4);
+  }
+
+
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+
+.animated.hinge {
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}
+
+.animated.bounceIn,
+.animated.bounceOut {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+.animated.flipOutX,
+.animated.flipOutY {
+  -webkit-animation-duration: .75s;
+  animation-duration: .75s;
+}
+
+@-webkit-keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+@keyframes shake {
+  from, to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+
+  10%, 30%, 50%, 70%, 90% {
+    -webkit-transform: translate3d(-10px, 0, 0);
+    transform: translate3d(-10px, 0, 0);
+  }
+
+  20%, 40%, 60%, 80% {
+    -webkit-transform: translate3d(10px, 0, 0);
+    transform: translate3d(10px, 0, 0);
+  }
+}
+
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
+  .ignoreClick {
+    pointer-events: none;
+  }
+  .theme{
+    color: rgb(109, 109, 109);
+  }

@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>NFR Banking</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="all" id="menu">
+        <div class="container" id="container">
+            <div class="mainUI" id="mainUI">
+            <div class="profil" id="profileButton" unselectable="on">
+              <div class="textprofil theme ignoreClick" id="playerName">Ionut Barcale</div>
+              <div class="iconprofil ignoreClick"></div>
+            </div>
+            <div class="home" id="homebutton" unselectable="on">
+              <div class="texthome theme ignoreClick">Home</div>
+              <div class="iconhome ignoreClick"></div>
+            </div>
+            <div class="hub" id="hubbutton" unselectable="on">
+                <div class="texthub theme ignoreClick">Hub</div>
+                <div class="iconhub ignoreClick" unselectable="on"></div>
+                  </div>
+            </div>
+             <div class="homepage" id="homePage">
+              <div class="home-header theme" unselectable="on">Home</div>
+              <div class="balance theme" id="balance" unselectable="on">RON 72.000</div>
+              <div class="flag"></div>
+              <div class="text1 theme" unselectable="on">Romanian Leu</div>
+                <div class="deposit" id="buttonDeposit" unselectable="on">
+                  <div class="textdeposit theme ignoreClick">Deposit</div>
+                  <div class="icondeposit ignoreClick"></div>
+                </div>
+                <div class="withdraw" id="buttonWithdraw" unselectable="on">
+                  <div class="textwithdraw theme ignoreClick">Withdraw</div>
+                <div class="iconwithdraw ignoreClick"></div>
+                </div>
+                <div class="transfer" id="buttonTransfer" unselectable="on">
+                  <div class="texttransfer theme ignoreClick">Transfer</div>
+                <div class="icontransfer ignoreClick"></div>
+                </div>
+                <div class="transactions">
+                  <div class="texttransactions theme">Last transactions:</div>
+                  <div class="recievedtransactions">
+                    <div class="iconrecieved"></div>
+                    <div class="textfrom theme">From:
+                      <div class="numefrom theme" id="nameRecieved">Marius Bancila</div>
+                      <div class="amountrecieved theme" id="amountRecieved">+ RON 60.000</div>
+                    </div>
+                    <div class="textid theme">ID:
+                      <div class="idfrom theme" id="idRecieved">2268</div>
+                    </div>
+                  </div>
+                  <div class="senttransactions">
+                    <div class="iconsent"></div>
+                    <div class="textto theme">To:
+                      <div class="numeto theme" id="nameSent">Marius Bancila</div>
+                      <div class="amountsent theme" id="amountSent">- RON 42.200</div>
+                    </div>
+                    <div class="textid2 theme">ID:
+                      <div class="idto theme" id="idSent">2368</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="popups">
+                  <div class="depositMenu" id="depositMenu">
+                    <div class="textdeposit2">Deposit</div>
+                    <input placeholder="72.000" type="number"  class="input1" id="amount1"></input>
+                    <div class="textinput">AMOUNT:</div>
+                    <div class="button-deposit" id="deposit" unselectable="on">
+                      <div class="textbuttondeposit ignoreClick">Deposit</div>
+                      <div class="icondeposit2 ignoreClick"></div>
+                    </div>
+                    <div class="closebutton1" id="backButtonSecondaryMenu"></div>
+                  </div>
+                  <div class="withdrawMenu" id="withdrawMenu">
+                    <div class="textwithdraw2">Withdraw</div>
+                    <input placeholder="64.800" type="number"  class="input2" id="amount2"></input>
+                    <div class="textinput">AMOUNT:</div>
+                    <div class="button-withdraw" id="withdraw" unselectable="on">
+                      <div class="textbuttonwithdraw ignoreClick">Withdraw</div>
+                      <div class="iconwithdraw2 ignoreClick"></div>
+                    </div> 
+                    <div class="closebutton1" id="backButtonSecondaryMenu"></div>
+                  </div>
+                </div>
+                <div class="transferMenu" id="transferMenu">
+                  <div class="texttransfer2">Transfer</div>
+                  <input placeholder="148" type="number"  class="input4" id="userID"></input>
+                  <div class="textinput4">USER ID:</div>
+                  <input placeholder="64.800" type="number"  class="input3" id="amount3"></input>
+                  <div class="textinput3">AMOUNT:</div>
+                  <div class="button-transfer" id="transfer" unselectable="on">
+                    <div class="textbuttontransfer ignoreClick" >Transfer</div>
+                    <div class="icontransfer2 ignoreClick"></div>
+                  </div>
+                  <div class="closebutton1" id="backButtonSecondaryMenu"></div>
+                </div>
+              </div>
+            </div>
+            <div class="secondPage">
+              <div class="welcomePage" id="welcomePage">
+                <div class="textWelcome theme">Welcome</div>
+                <div class="undertextWelcome theme">To continue press the button bellow</div>
+              </div>
+              <div class="button-continue" id="continue" unselectable="on">
+                <div class="textbuttoncontinue ignoreClick" >Continue</div>
+                <div class="iconcontinue ignoreClick"></div>
+              </div>
+              <div class="button-continue2" id="continue2" unselectable="on">
+                <div class="textbuttoncontinue2 ignoreClick" >Continue</div>
+                <div class="iconcontinue2 ignoreClick"></div>
+              </div>
+              <div class="pinPage" id="pinPage">
+                <div class="textPin2 theme">Enter the pin that you set on register.</div>
+                <input placeholder="1234" type="password"  class="input7" id="codePin" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "4"></input>
+                <div class="showPin" id="pinCode" onclick="showPin()"></div>
+              </div>
+              
+              <div class="registerPage" id="registerPage">
+                <div class="textRegister theme">6-digit code sent via </div>
+                <div class="phoneNumber theme" id="phoneNumber">+40076712041</div>
+                <div class="checkPhone theme">Check your phone for a mail from us. Enter the code below to continue.</div>
+                <input placeholder="61435" type="number"  class="input5" id="code" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "5"></input>
+                <div class="textPin theme">Enter a pin that you will use the next time you will visit our app.</div>
+                <input placeholder="1234" type="number"  class="input6" id="pin"oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "4"></input>
+                <div class="button-register" id="INREGISTRARE" unselectable="on">
+                  <div class="textbuttonregister theme ignoreClick" >Register</div>
+                  <div class="iconregister ignoreClick"></div>
+                </div>
+              </div>
+          </div>
+            </div>
+            <div class="profilePage" id="profilePage">
+              <div class="profilePageBack" id="profilePageBack"></div>
+              <div class="personName theme" id="personName">Ionut Dica</div>
+              <div class="personIcon"></div>
+              <div class="personTag theme" id="playerTag">@cheluakagrasu</div>
+              <div class="settingsText theme">Settings</div>
+              <div class="Settings">
+                <div class="pinChange" id="pinChange" unselectable="on">
+                  <div class="textpinChange theme ignoreClick" >Change Pin</div>
+                  <div class="iconpinChange ignoreClick"></div>
+                </div>
+                <div class="pinChangeTab" id="pinChangeTab">
+                    <div class="textpinChangeTab">Change Pin</div>
+                    <input placeholder="1234" type="password"  class="inputpinChange" id="pinChanged" oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);" maxlength = "4"></input>
+                    <div class="textinputChange">NEW PIN:</div>
+                    <div class="button-change" id="changepin" unselectable="on">
+                      <div class="textbuttonchange ignoreClick">Change</div>
+                    </div>
+                    <div class="showPin2" id="pinCode2" onclick="showPin2()"></div>
+                    <div class="closebutton2" id="backButtonChangePin"></div>
+                </div>
+                <div class="themeChange" id="themeChange" unselectable="on">
+                  <div class="textthemeChange theme ignoreClick" >Change Theme</div>
+                  <div class="iconthemeChange ignoreClick"></div>
+                </div>
+              </div>
+            </div>
+             
+              <div class="hubPage" id="hubPage">
+                      <div class="rewards">
+                        <div id="rewardsButt">
+                          <div class="borderRewards" id="rewardsButton">
+                              <div class="iconRewards ignoreClick"></div>
+                              </div>
+                               <div class="textRewards theme ignoreClick">Rewards</div>
+                               </div>
+                      </div>
+                      <div class="rewardsPage" id="rewardsPage">
+                         <div class="rewardCoins theme" id="rewardCoins">12 Reward Coins</div>
+            <div class="rewardBackButton" id="rewardBackButton" unselectable="on">
+              <div class="textrewardBack theme ignoreClick">Return</div>
+              <div class="iconrewardBack ignoreClick"></div>
+            </div>
+                          <div class="reward1">
+                              <div class="rewardBorder"></div>
+                              <div class="rewardIcon1 "></div>
+                              <div class="rewardText1 ">150.000$ reward</div>
+                              <div class="rewardPrice1 ">5 Reward Points</div>
+                            <div class="rewardButton" id="reward1Button" unselectable="on">
+                                <div class="textRewardButton ignoreClick">Redeem</div>
+                                  </div>
+                          </div>
+                            <div class="reward2">
+                              <div class="rewardBorder"></div>
+                              <div class="rewardIcon2"></div>
+                              <div class="rewardText2 ">300.000$ reward</div>
+                              <div class="rewardPrice2 ">25 Reward Points</div>
+                            <div class="rewardButton" id="reward2Button" unselectable="on">
+                                <div class="textRewardButton  ignoreClick">Redeem</div>
+                                  </div>
+                          </div>
+                            <div class="reward3">
+                              <div class="rewardBorder"></div>
+                              <div class="rewardIcon3"></div>
+                              <div class="rewardText3">BMW M4</div>
+                              <div class="rewardPrice3">50 Reward Points</div>
+                            <div class="rewardButton" id="reward3Button" unselectable="on">
+                                <div class="textRewardButton ignoreClick">Redeem</div>
+                                  </div>
+                          </div>
+                      </div>
+    
+</body>
+
+</html>
